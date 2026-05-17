@@ -51,7 +51,7 @@ window.TRANSLATIONS = {
     contact_sub:    "Abierto a roles de CPO, Head of Product o Product Director en fintech, pagos o industrias adyacentes.",
     contact_cta:    "Escribir por LinkedIn",
     contact_email:  "Enviar email",
-    footer_copy:    "Construido con intención, no con plantilla.",
+    footer_copy:    "constanza.eltit@gmail.com",
     tag_online:     "Online",
     tag_presencial: "Presencial",
     tag_sva:        "SVA",
@@ -82,7 +82,7 @@ window.TRANSLATIONS = {
     contact_sub:    "Open to CPO, Head of Product or Product Director roles in fintech, payments or adjacent industries.",
     contact_cta:    "Message on LinkedIn",
     contact_email:  "Send email",
-    footer_copy:    "Built with intention, not a template.",
+    footer_copy:    "constanza.eltit@gmail.com",
     tag_online:     "Online",
     tag_presencial: "In-person",
     tag_sva:        "Value-added",
@@ -361,13 +361,13 @@ window.EXPERIENCE = [
 //  Solo necesitas cambiar los colores aquí — el resto se adapta.
 window.THEME = {
   light: {
-    "--bg":           "#FAFAF8",
+    "--bg":           "#A4A9CB",
     "--bg-card":      "#FFFFFF",
-    "--bg-subtle":    "#F4F3F0",
-    "--text":         "#111110",
-    "--text-muted":   "#6B6B65",
-    "--border":       "#E5E4DF",
-    "--accent":       "#0F172A",   // Color de acento principal
+    "--bg-subtle":    "#FBF8FF",
+    "--text":         "#1D2667",
+    "--text-muted":   "#938F96",
+    "--border":       "#958DA5",
+    "--accent":       "#535A92",   // Color de acento principal
     "--accent-text":  "#FFFFFF",
     "--tag-online":   "#EAF3DE",   // Verde suave
     "--tag-online-t": "#3B6D11",
