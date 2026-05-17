@@ -361,7 +361,7 @@ window.EXPERIENCE = [
 //  Solo necesitas cambiar los colores aquí — el resto se adapta.
 window.THEME = {
   light: {
-    "--bg":           "#A4A9CB",
+    "--bg":           "#E6E8F5",
     "--bg-card":      "#FFFFFF",
     "--bg-subtle":    "#FBF8FF",
     "--text":         "#1D2667",
