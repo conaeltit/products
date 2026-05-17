@@ -15,7 +15,7 @@
 
 // ─── CONFIGURACIÓN GLOBAL ────────────────────────────────────
 window.PORTFOLIO_CONFIG = {
-  name: "[Constanza Eltit Cruz]",
+  name: "Constanza Eltit Cruz",
   title: {
     es: "Chief Product Officer · Fintech & Medios de Pago",
     en: "Chief Product Officer · Fintech & Payments"
