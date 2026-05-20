@@ -58,8 +58,8 @@ window.TRANSLATIONS = {
     tag_infra:      "Infra",
     metric_conv:    "Conversión Web Checkout",
     metric_sub:     "Conversión suscripciones",
-    metric_clients: "Clientes activos",
-    metric_settle:  "Abono a comercios",
+    metric_products: "Productos desarrollados",
+    metric_settle:  "ARR",
     read_more:      "Ver detalle →",
     theme_dark:     "Modo oscuro",
     theme_light:    "Modo claro",
@@ -89,8 +89,8 @@ window.TRANSLATIONS = {
     tag_infra:      "Infra",
     metric_conv:    "Web Checkout conversion",
     metric_sub:     "Subscription conversion",
-    metric_clients: "Active clients",
-    metric_settle:  "Merchant settlement",
+    metric_products: "Developed products",
+    metric_settle:  "ARR",
     read_more:      "See details →",
     theme_dark:     "Dark mode",
     theme_light:    "Light mode",
@@ -101,8 +101,8 @@ window.TRANSLATIONS = {
 window.METRICS = [
   { value: "95%",  key: "metric_conv",    icon: "trending_up" },
   { value: "97%",  key: "metric_sub",     icon: "autorenew" },
-  { value: "+5K",  key: "metric_clients", icon: "store" },
-  { value: "D+1",  key: "metric_settle",  icon: "payments" }
+  { value: "+10",  key: "metric_products", icon: "store" },
+  { value: "+US$1MM",  key: "metric_settle",  icon: "payments" }
 ];
 
 // ─── PRODUCTOS ────────────────────────────────────────────────
