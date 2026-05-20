@@ -102,7 +102,7 @@ window.METRICS = [
   { value: "95%",  key: "metric_conv",    icon: "trending_up" },
   { value: "97%",  key: "metric_sub",     icon: "autorenew" },
   { value: "+10",  key: "metric_products", icon: "store" },
-  { value: "+$1MM USD",  key: "metric_settle",  icon: "payments" }
+  { value: "<$1MM usd",  key: "metric_settle",  icon: "payments" }
 ];
 
 // ─── PRODUCTOS ────────────────────────────────────────────────
