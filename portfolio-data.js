@@ -59,7 +59,7 @@ window.TRANSLATIONS = {
     metric_conv:    "Conversión Web Checkout",
     metric_sub:     "Conversión suscripciones",
     metric_products: "Productos desarrollados",
-    metric_settle:  "ARR",
+    metric_settle:  "Annual Product Revenue",
     read_more:      "Ver detalle →",
     theme_dark:     "Modo oscuro",
     theme_light:    "Modo claro",
@@ -90,7 +90,7 @@ window.TRANSLATIONS = {
     metric_conv:    "Web Checkout conversion",
     metric_sub:     "Subscription conversion",
     metric_products: "Developed products",
-    metric_settle:  "ARR",
+    metric_settle:  "Annual Product Revenue",
     read_more:      "See details →",
     theme_dark:     "Dark mode",
     theme_light:    "Light mode",
@@ -102,7 +102,7 @@ window.METRICS = [
   { value: "95%",  key: "metric_conv",    icon: "trending_up" },
   { value: "97%",  key: "metric_sub",     icon: "autorenew" },
   { value: "+10",  key: "metric_products", icon: "store" },
-  { value: "+US$1MM",  key: "metric_settle",  icon: "payments" }
+  { value: "+$1MM USD",  key: "metric_settle",  icon: "payments" }
 ];
 
 // ─── PRODUCTOS ────────────────────────────────────────────────
