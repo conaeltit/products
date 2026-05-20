@@ -129,8 +129,8 @@ window.PRODUCTS = [
       en: "High-conversion online checkout with all payment methods"
     },
     description: {
-      es: "Diseñé y lancé el checkout principal de la PSP. Integra tarjetas, Webpay, transferencias bancarias, PIX, Apple Pay y Google Pay en un solo flujo optimizado con token de red + 3DS.",
-      en: "Designed and launched the PSP's main checkout. Integrates cards, Webpay, bank transfers, PIX, Apple Pay and Google Pay in a single optimized flow with network tokens + 3DS."
+      es: "Creé el checkout principal de la PSP. Integra tarjetas, transferencias bancarias, PIX, y billeteras digitales en un solo flujo optimizado y seguro con token de red + 3DS.",
+      en: "I created the PSP's main checkout. Integrates cards, Webpay, bank transfers, PIX, and digital wallets, in a single and secure optimized flow with network tokens + 3DS."
     },
     metrics: [
       { label: { es: "Conversión", en: "Conversion" }, value: "95%" },
@@ -138,18 +138,18 @@ window.PRODUCTS = [
       { label: { es: "Autenticación", en: "Authentication" }, value: "3DS 2.x" }
     ],
     highlights: {
-      es: ["Token de red Visa/Mastercard para mayor aprobación", "Frictionless 3DS cuando el riesgo lo permite", "Teclado adaptativo en mobile por tipo de campo", "Manejo de error inline sin destruir el formulario"],
-      en: ["Visa/Mastercard network tokens for higher approval", "Frictionless 3DS when risk allows", "Adaptive mobile keyboard per field type", "Inline error handling without resetting the form"]
+      es: ["Token de red Visa Cybersource para mayor conversión", "Frictionless 3DS cuando el riesgo lo permite", "Teclado adaptativo en mobile por tipo de campo", "Manejo de error inline sin destruir el formulario", "Conexión con SII"],
+      en: ["Visa Cybersource network tokens for higher conversion", "Frictionless 3DS when risk allows", "Adaptive mobile keyboard per field type", "Inline error handling without resetting the form", "SII compliant"]
     }
   },
   {
     id: "quick-checkout",
     tag: "online",
     icon: "bolt",
-    name: { es: "Quick Checkout", en: "Quick Checkout" },
+    name: { es: "Checkout Sin Fricción", en: "Quick Checkout" },
     tagline: {
-      es: "Cobros sin fricción con tarjeta tokenizada",
-      en: "Frictionless card payments with network tokenization"
+      es: "Un checkout directamente en tu página web, sin redireccionamientos y sin auticaciones extra. Tus clientes pueden pagar sin fricción con tarjeta tokenizada",
+      en: "A checkout embedded directly that bypasses multi-step cart pages, allowing customers to complete a card purchase instantly with network tokenization"
     },
     description: {
       es: "Producto de pago en un clic para comercios con base de clientes recurrentes. Permite cobrar con la tarjeta tokenizada del cliente sin requerir que vuelva a ingresarla.",
@@ -161,8 +161,8 @@ window.PRODUCTS = [
       { label: { es: "Tipo", en: "Type" }, value: "Hosted" }
     ],
     highlights: {
-      es: ["Tokenización de red para máxima seguridad", "Sin PCI scope adicional para el comercio", "Experiencia one-tap en mobile", "Compatible con suscripciones y cobros bajo demanda"],
-      en: ["Network tokenization for maximum security", "No additional PCI scope for the merchant", "One-tap experience on mobile", "Compatible with subscriptions and on-demand charges"]
+      es: ["Tokenización de red para máxima seguridad", "Con smart-routing", "Sin PCI scope adicional para el comercio", "Experiencia one-tap en mobile", "Compatible con suscripciones y cobros bajo demanda"],
+      en: ["Network tokenization for maximum security", "With smart-routing", "No additional PCI scope for the merchant", "One-tap experience on mobile", "Compatible with subscriptions and on-demand charges"]
     }
   },
   {
@@ -175,8 +175,8 @@ window.PRODUCTS = [
       en: "97% conversion on automatic payments with PAT"
     },
     description: {
-      es: "Sistema completo de pagos recurrentes online y presenciales. Incluye arquitectura de estados, dunning logic de recuperación y PAT (débito automático chileno). Casos de uso: aseguradoras, educación, clubes sociales.",
-      en: "Complete online and in-person recurring payment system. Includes state architecture, dunning recovery logic and PAT (Chilean automatic debit). Use cases: insurers, education, social clubs."
+      es: "Sistema completo de pagos recurrentes online y presenciales. Incluye arquitectura de estados, dunning logic de recuperación y PAT (direct debit automático chileno). Casos de uso: aseguradoras, educación, clubes sociales.",
+      en: "Complete online and in-person recurring payment system. Includes state architecture, dunning recovery logic and PAT (Chilean direct debit). Use cases: insurers, education, social clubs."
     },
     metrics: [
       { label: { es: "Conversión 1er cobro", en: "First charge conversion" }, value: "97%" },
@@ -194,8 +194,8 @@ window.PRODUCTS = [
     icon: "web",
     name: { es: "Portal de Pagos", en: "Payment Portal" },
     tagline: {
-      es: "Portal web de cobro integrado a ERP, facturadores y base de deudas",
-      en: "Payment portal integrated with ERP, billing systems and debt databases"
+      es: "Portal web white-label de cobro integrado a ERP, facturadores y base de deudas",
+      en: "White-label payment portal integrated with ERP, billing systems and debt databases"
     },
     description: {
       es: "Producto B2B que permite a empresas con grandes carteras de deuda (aseguradoras, educación, cobranza) ofrecer un portal de pago branded con conciliación automática contra su sistema de gestión.",
@@ -244,8 +244,8 @@ window.PRODUCTS = [
       en: "Smart terminal for in-person payments with D+1 settlement"
     },
     description: {
-      es: "Terminal POS Android con impresora integrada, conexión al SII para boletas electrónicas y abono D+1 directo a la cuenta del comercio. Diseñé la experiencia del operador y el flujo de onboarding del dispositivo.",
-      en: "Android POS terminal with integrated printer, SII connection for electronic receipts and D+1 settlement directly to the merchant's account. Designed the operator experience and device onboarding flow."
+      es: "Terminal POS Android con impresora integrada, conexión al SII para boletas electrónicas y abono D+1 directo a la cuenta del comercio. El único SmartPOS en Chile que une pagos únicos, pagos recurrentes oo suscripciones y pagos con PIX. Diseñé la experiencia del operador y el flujo de onboarding del dispositivo, además de liderar el desarrollo de los productos.",
+      en: "Android POS terminal with integrated printer, SII connection for electronic receipts and D+1 settlement directly to the merchant's account. The only SmartPOS in Chile that integrates one-time payments, recurring paymemnts and PIX payments. Designed the operator experience and device onboarding flow, besides leading the product development."
     },
     metrics: [
       { label: { es: "Abono", en: "Settlement" }, value: "D+1" },
